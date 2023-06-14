@@ -41,3 +41,29 @@ is not entirely available in advance and arrives over time.
 
 Entire: Scan a downloaded image to detect faces.
 Not entire: Determining the best route for a minecraft speed run (procedually generated world)
+
+1.2-1
+Give an example of an application that requires algorithmic content at
+the application level, and discuss the function of the algorithms
+involved.
+
+Automatic bot that plays a game i.e. snakes and ladder
+
+
+1.2-2
+Suppose that for inputs of size n on a particular computer, insertion sort
+runs in 8n^2 steps and merge sort runs in 64 n lg n steps. For which
+values of n does insertion sort beat merge sort?
+
+8n^2 < 64 n ln(n)
+n^2 < 8n ln(n)
+n^2 < ln(n^8n)
+n
+
+1.2-3
+What is the smallest value of n such that an algorithm whose running
+time is 100n
+2 runs faster than an algorithm whose running time is 2
+n on
+the same machine?
+
