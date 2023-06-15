@@ -55,10 +55,24 @@ Suppose that for inputs of size n on a particular computer, insertion sort
 runs in 8n^2 steps and merge sort runs in 64 n lg n steps. For which
 values of n does insertion sort beat merge sort?
 
-8n^2 < 64 n ln(n)
-n^2 < 8n ln(n)
-n^2 < ln(n^8n)
-n
+Note: lg is log base 2
+
+8n^2 < 64 n lg(n)
+8n^2/64n < lg(n)
+
+n/8 < lg(n)
+
+n < n lg(n)
+
+2^n < 2^(ln(n^8))
+
+2^n < n^8
+
+true for 
+2 <= n <= 43
+
+
+
 
 1.2-3
 What is the smallest value of n such that an algorithm whose running
